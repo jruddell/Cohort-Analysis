@@ -1,0 +1,2 @@
+currently there are no elements.. the purpose of the elements folder is to store any generic elements you want to use in multiple views.. 
+some good examples would be a generic modal, header, sidebar / navigation components.
