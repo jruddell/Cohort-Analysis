@@ -3,12 +3,16 @@ Welcome to my cohort analysis!
 To get this up and running use the following
 
     You'll need to create a virtual environment with virtualenv, and also install all the python dependencies within
-    this environment with <path to virtual environment>/bin/pip install -r requirements.txt. (may need sudo)
-    To run the web server, simply source your virtual environment (<path to virtual environment>/bin/activate) 
-    and execute "python main.py"
+    this environment 
 
-    To build the front-end project, run 'npm install' (may need sudo) from the root directory. This installs everything in package.json.
-    Then, run 'npm run watch' to run duo and activate the watcher. The compiled js and sass can then be found in /build/entry.<type>
+    Clone this repository, cd to it in your terminal and run the following commands:
+        "virtualenv venv" -- new python executable environment
+        "source venv/bin/activate" --source that environment
+        "cd Cohort-Analysis"
+        "pip install -r requirements.txt" (may need sudo) --install app requirements
+        "npm install" --front end build (may need sudo)
+        "npm run build" --npm build to run duo (es6/jsx compiling and output to build folder)
+        "python main.py" --run the web server
 
     All React views are in /views (which can be reused). All global / generic components (such as a modal) should go in the elements folder
     /templates contains the main entry html file.
